@@ -31,10 +31,18 @@
   justify-content: center;
 }
 
+.members_profiles:hover {
+  color: #ffffff;
+}
+
 .albums_icon {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.albums_icon:hover {
+  color: #ffffff;
 }
 
 .title {
