@@ -1,0 +1,329 @@
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url("bg_eyes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  background-color: rgb(197, 25, 28);
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+  float: left;
+  align-self: flex-start;
+}
+
+.members_profiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.albums_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  background-image: url("bg_title.jpg");
+  height: 200px;
+  width: 80%;
+  margin: 25px;
+  border-radius: 30px;
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.xikers {
+  height: 180px;
+  width: 50%;
+  float: left;
+  border-radius: 30px;
+}
+
+.mascotte {
+  height: 180px;
+  border-radius: 30px;
+}
+
+.rubrik1 {
+  display: flex;
+  justify-content: center;
+  background-image: url("rubriks_bg.jpg");
+  background-size: cover;
+  width: 80%;
+  margin: 25px;
+  border-radius: 30px;
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.name {
+  font-family: "DynaPuff";
+  color: #ffffff;
+  text-shadow: 5px 0 10px#7b1ead;
+  background-color: black;
+  width: 30%;
+  padding-left: 8%;
+  border-radius: 30px;
+}
+
+.concept {
+  width: 35%;
+  font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  padding-left: 3%;
+  border-radius: 30px;
+  font-size-adjust: calc(100% / 3);
+}
+
+.concept_photo {
+  padding-top: 2%;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.rubrik2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("rubriks_bg.jpg");
+  background-size: cover;
+  width: 80%;
+  border-radius: 30px;
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+  flex-wrap: wrap;
+}
+
+.name2 {
+  align-self: center;
+  text-align: center;
+  font-family: "DynaPuff";
+  color: #ffffff;
+  font-size: xx-large;
+  text-shadow: 5px 0 10px#7b1ead;
+  background-color: black;
+  width: 50%;
+  height: 200%;
+  padding-left: 8%;
+  border-radius: 30px;
+}
+
+.minjae {
+  align-self: flex-start;
+  padding-left: 2%;
+  display: flex;
+}
+
+.photo_minjae {
+  border-radius: 5px;
+  height: 150px;
+}
+
+
+.text_minjae {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.junmin {
+  align-self: flex-end;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.photo_junmin {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_junmin {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-left: 30vw;
+}
+
+.sumin {
+  align-self: flex-start;
+  padding-left: 2%;
+  display: flex;
+}
+
+.photo_sumin {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_sumin {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.jinsik {
+  align-self: flex-end;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.photo_jinsik {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_jinsik {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  width: 80%;
+  padding-right: 30vw;
+}
+
+.hyunwoo {
+  align-self: flex-start;
+  padding-left: 2%;
+  display: flex;
+}
+
+.photo_hyunwoo {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_hyunwoo {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.junghoon {
+  align-self: flex-end;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.photo_junghoon {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_junghoon {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.seeun {
+  align-self: flex-start;
+  padding-left: 2%;
+  display: flex;
+}
+
+.photo_seeun {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_seeun {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.yujun {
+  align-self: flex-end;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.photo_yujun {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_yujun {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.hunter {
+  align-self: flex-start;
+  padding-left: 2%;
+  display: flex;
+}
+
+.photo_hunter {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_hunter {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
+
+.yechan {
+  align-self: flex-end;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.photo_yechan {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.text_yechan {
+    font-family: "Gruppo";
+  color: #ffffff;
+  background-color: black;
+  border-radius: 15px;
+  padding-right: 30vw;
+}
