@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-image: url("bg_eyes.jpg");
+  background-image: url("images_xikers/bg_eyes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -47,7 +47,7 @@
 
 .title {
   display: flex;
-  background-image: url("bg_title.jpg");
+  background-image: url("images_xikers/bg_title.jpg");
   height: 200px;
   width: 80%;
   margin: 25px;
@@ -74,7 +74,7 @@
 .rubrik1 {
   display: flex;
   justify-content: center;
-  background-image: url("rubriks_bg.jpg");
+  background-image: url("images_xikers/rubriks_bg.jpg");
   background-size: cover;
   width: 80%;
   margin: 25px;
@@ -115,7 +115,7 @@
 .rubrik2 {
   display: flex;
   flex-direction: column;
-  background-image: url("rubriks_bg.jpg");
+  background-image: url("images_xikers/rubriks_bg.jpg");
   background-size: cover;
   width: 80%;
   border-radius: 30px;
